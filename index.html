@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Specificity demo</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <h1>Специфичность</h1>
+
+  <h2>Пример 1: Иерархия специфичности</h2>
+  <p>Специфичность селекторов тега, класса, атрибута, идентификатора:</p>
+  <button class="main-button" id="btn">click!</button>
+
+  <p>Специфичность inline-стилей:</p>
+  <button class="main-button" id="btn" style="background-color: Crimson;">click!</button>
+
+  <h2>Пример 2: Подсчет баллов специфичности</h2>
+
+	<p id="text" class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum obcaecati ratione dolore ipsum provident corrupti ut mollitia veniam corporis laudantium? Officiis minus minima alias reprehenderit quibusdam molestiae quae exercitationem porro.</p>
+
+
+  <h2>Пример 3: Подсчет баллов специфичности селектора по вложенности</h2>
+
+  <div class="block">
+    <p id="txt" class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum obcaecati ratione dolore ipsum provident corrupti ut mollitia veniam corporis laudantium? Officiis minus minima alias reprehenderit quibusdam molestiae quae exercitationem porro.</p>
+  </div>
+
+
+</body>
+</html>

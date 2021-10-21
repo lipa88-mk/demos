@@ -1,0 +1,66 @@
+/* Пример 1 */
+
+button {
+	padding: 10px 20px;
+	font-size: 20px; 
+	border: none;
+	background-color: Aqua;
+}
+
+.main-button {
+	/* background-color: Plum; */
+}
+
+button[id="btn"] {
+	/* background-color: Pink;  */
+}
+
+#btn {
+	/* background-color: Gold; */
+}
+
+
+/* Пример 2 */
+
+p { /* 1 */
+	/* color: Grey; */
+}
+
+.text { /* 10 */
+	/* color: Purple; */
+}
+
+p[id="text"] { /* 1 + 10 */
+	/* color: Fuchsia; */
+}
+
+#text { /* 100 */
+	/* color: Gold; */
+}
+
+
+/* Пример 3 */
+
+.block { /* 10 */
+	color: Green;
+}
+
+.block p { /* 10 + 1 */
+	/* color: Blue; */
+}
+
+.block .txt { /* 10 + 10 */
+	/* color: Tomato; */
+}
+
+.block #txt { /* 10 + 100 */
+	/* color: Purple; */
+}
+
+.block p.txt { /* 10 + 1 + 10*/
+	/* color: Grey; */
+}
+
+.block p#txt { /* 10 + 1 + 100*/
+	/* color: Black; */
+}
